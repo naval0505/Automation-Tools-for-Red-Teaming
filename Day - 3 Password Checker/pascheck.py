@@ -1,7 +1,6 @@
 import re
 
 def check_password(password):
-    # Your original strength checking logic
     strength = 0
     feedback = []
 
