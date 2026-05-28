@@ -38,7 +38,7 @@ def check_password(password):
     return feedback, label
 
 
-# ---- Main loop ----
+# This is where the password takes the input from and if the password is all small caps it quits the progeram
 while True:
     password = input("\nEnter Password (or type 'quit' to exit): ")
     if password.lower() == 'quit':
